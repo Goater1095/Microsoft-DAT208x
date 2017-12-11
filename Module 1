@@ -1,0 +1,31 @@
+Lecture: Python Basics
+Review Question 1
+Which of the following statements is correct?
+Answer : The IPython Shell is typically used to work with Python interactively.
+
+Review Question 2
+Which file extension is used for Python script files?
+Answer : .py
+
+Review Question 3
+You need to print the result of adding 3 and 4 inside a script. Which line of code should you write in the script?
+Answer : print(3 + 4)
+
+Lecture: Variables and Types  
+Review Question 1
+Which line of code creates a variable x with the value 15?
+Answer : x = 15
+
+Review Question 2
+What is the value of the variable z after executing these commands?
+x = 5
+y = 7
+z = x + y + 1
+Answer : 13
+
+Review Question 3
+You execute the following two lines of Python code:
+x = "test"
+y = False
+Which of the following statements is correct?
+Answer : x is a string, and y is a boolean.
