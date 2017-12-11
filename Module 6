@@ -1,0 +1,58 @@
+Lecture: Boolean Logic and Control Flow
+Review Question 1
+What is the result of the following comparison?
+5 >= 5
+Answer : True
+
+Review Question 2
+What is the result of the following comparison?
+4 != 4
+Answer : False
+
+Review Question 3
+What is the characteristic of the and operator?
+Answer : The and operator returns True only if both operands are True.
+
+Review Question 4
+What is the characteristic of the or operator?
+Answer : The or operator returns True if at least one of the operands is True.
+
+Review Question 5
+You write the following code:
+x = 5
+if x > 6 :
+    print("high")
+else :
+    print("low")
+What will be printed out if you execute the code?
+Answer : low
+
+Review Question 6
+You write the following code:
+x = 7
+if x > 6 :
+    print("high")
+elif x > 3 :
+    print("ok")
+else :
+    print("low")
+What will be printed out if you execute the code?
+Answer : high
+
+Lecture: Pandas
+Review Question 1
+How is a Pandas DataFrame different from a 2D Numpy array?
+Answer : In Pandas, different columns can contain different types.
+
+Review Question 2
+What are two characteristics that describe Pandas DataFrame?
+Answer : The rows correspond to observations.
+         The columns correspond to variables.
+
+Review Question 3
+Which Pandas function do you use to import data from a comma-separated value (CSV) file into a Pandas DataFrame?
+Answer : read_csv()
+
+Review Question 4
+Which technique should you use to select an entire row by its row label when accessing data in a Pandas DataFrame?
+Answer : loc
