@@ -1,0 +1,59 @@
+Lecture: Functions
+Review Question 1
+What is a Python function?
+Answer : A piece of reusable Python code that solves a particular problem.
+
+Review Question 2
+You have a list named x. To calculate the minimum value in this list, you use the min() function.
+Which Python command should you use?
+Answer : min(x)
+
+Review Question 3
+What Python command opens up the documentation from inside the IPython Shell for the min function?
+Answer : help(min)
+
+Review Question 4
+The function round has two arguments. Select the two correct statements about these arguments.
+Answer : number is a required argument. and ndigits is an optional argument.
+
+Lecture: Methods
+Review Question 1
+What is append() in Python?
+Answer : append() is a method, and therefore also a function.
+
+Review Question 2
+You have a string x defined as follows:
+x = "monty python says hi!"
+Which Python command should you use to capitalize this string x?
+Answer : x.capitalize()
+
+Review Question 3
+How does the list x look after you execute the following two commands?
+x = [4, 9, 5, 7]
+x.append(6)
+Answer : [4, 9, 5, 7, 6]
+
+Lecture: Packages
+Review Question 1
+Which of the following is a package for installation and maintenance system for Python?
+Answer : pip
+
+Review Question 2
+Which statement is the most common way to invoke the import machinery?
+Answer : import
+
+Review Question 3
+You import Numpy as foo as follows:
+import numpy as foo
+Which Python command that used the array() function from Numpy is valid if Numpy is imported as foo?
+Answer : foo.array([1, 2, 3])
+
+Review Question 4
+You want to use Numpy's array() function.
+You need to decide whether to import this function as follows:
+from numpy import array
+or by importing the entire numpy package:
+import numpy
+Select the two correct statements about these different import methods.
+Answer : The from numpy import array version will make it less clear in the code that you're using Numpy's array() function.
+         Using import numpy will require you to use numpy.array(), making it clear that you're using a Numpy function.
