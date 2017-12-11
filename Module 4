@@ -1,0 +1,74 @@
+Lecture: Numpy
+Review Question 1
+Which Numpy function do you use to create an array?
+Answer : array()
+
+Review Question 2
+Which two statements describe the advantage of Numpy Package over regular Python Lists?
+Answer : The Numpy Package provides the array, a data type that can be used to do element-wise calculations.
+         Because Numpy arrays can only hold element of a single type, 
+            calculations on Numpy arrays can be carried out way faster than regular Python lists.
+
+Review Question 3
+What is the resulting Numpy array z after executing the following lines of code?
+import numpy as np
+x = np.array([1, 2, 3])
+y = np.array([3, 2, 1])
+z = x + y
+Answer : array([4, 4, 4])
+
+Review Question 4
+What happens when you put an integer, a Boolean, and a string in the same Numpy array using the array() function?
+Answer : All array elements are converted to strings.
+
+Lecture: 2D Numpy Arrays  
+Review Question 1
+What charaterizes multi-dimensional Numpy arrays?
+Answer : You can create a 2D Numpy array from a regular list of lists.
+
+Review Question 2
+You created the following 2D Numpy array, x
+:
+import numpy as np
+x = np.array([["a", "b", "c", "d"],
+              ["e", "f", "g", "h"]])
+Which Python command do you use to select the string "g" from x?
+Answer : x[1,2]
+
+Review Question 3
+What does the resulting array z contain after executing the following lines of Python code?
+import numpy as np
+x = np.array([[1, 2, 3],
+              [1, 2, 3]])
+y = np.array([[1, 1, 1],
+              [1, 2, 3]])
+z = x - y
+Answer : array([[0, 1, 2],
+                [0, 0, 0]])
+       
+Lecture: Basic Statistics with Numpy
+Review Question 1
+Which of the following statement about basic statistics with Numpy is correct?
+Note: assume that the Numpy package is imported as np.
+Answer : Numpy offers many functions to calculate basic statistics, such as np.mean(), np.median() and np.std(). 
+
+Review Question 2
+You are writing code to measure your travel time and weather conditions to work each day.
+The data is recorded in a Numpy array where each row specifies the measurements for a single day.
+The first column specifies the temperature in Fahrenheit. The second column specifies the amount of travel time in minutes.
+The following is a sample of the code.
+import numpy as np
+x = np.array([[28, 18],
+              [34, 14],
+              [32, 16],
+              ...
+              [26, 23],
+              [23, 17]])
+Which Python command do you use to calculate the average travel time?
+Answer : np.mean(x[:,1])
+
+Review Question 3
+As a wrap up, have a look at the statements below about Numpy in general. Select the three statements that hold.
+Answer : Numpy is a great alternative to the regular Python list if you want to do Data Science in Python.
+      Numpy arrays can only hold elements of the same basic type.
+ Next to an efficient data structure, Numpy also offers tools to calculate summary statistics and to simulate statistical distributions.
